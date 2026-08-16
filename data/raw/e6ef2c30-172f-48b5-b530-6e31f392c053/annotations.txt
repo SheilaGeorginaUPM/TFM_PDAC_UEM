@@ -1,0 +1,4 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+7d90532e-915d-483c-b940-0a28e6630fe4	\N	masked_somatic_mutation	e6ef2c30-172f-48b5-b530-6e31f392c053	General	Notification	2022-02-28T13:59:46.721443-06:00	Approved	Variants from SomaticSniper are not included.
+9dac93e7-fab4-5e68-843d-8467d871c3c0	2706	analyte	806f6a37-189c-4661-abcf-e3e7328130d7	Item is noncanonical	Notification	2011-05-15T00:00:00	Approved	[intgen.org]: PAAD Pilot 1 to determine TCGA qualification metrics
+ecf7b21f-8d6c-5e00-889c-fbed67da7f1c	2705	analyte	46f85a4f-54bc-44a1-95df-8d8350600f13	Item is noncanonical	Notification	2011-05-15T00:00:00	Approved	[intgen.org]: PAAD Pilot 1 to determine TCGA qualification metrics
