@@ -1,3 +1,0 @@
-id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
-0794927b-eb48-49cb-a265-b36f4a1f69ff	\N	masked_somatic_mutation	aafc9e08-3a14-4551-b629-77592934a930	General	Notification	2022-02-28T13:58:37.214027-06:00	Approved	Variants from SomaticSniper are not included.
-bdb1706c-4815-5400-9265-3044aa7cc5af	23133	case	dd5074b2-462d-4267-8b9b-5a4c54e5978c	Item does not meet study protocol	Notification	2014-10-15T00:00:00	Approved	This case is a neuroendocrine tumor and should not have been included in the PAAD study

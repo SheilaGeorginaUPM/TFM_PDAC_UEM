@@ -1,0 +1,13 @@
+# Datos crudos
+data/raw/
+
+# Archivos de datos grandes
+data/processed/*.maf
+data/processed/*.tsv
+
+# Archivos del sistema
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc

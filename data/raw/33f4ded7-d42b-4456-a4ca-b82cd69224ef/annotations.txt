@@ -1,3 +1,0 @@
-id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
-cd104764-626e-40c8-bdb2-82a75836f87d	\N	masked_somatic_mutation	33f4ded7-d42b-4456-a4ca-b82cd69224ef	General	Notification	2022-02-28T12:40:56.302448-06:00	Approved	Variants from SomaticSniper are not included.
-78de50c2-29b5-5968-8a36-963aa102cb75	23125	case	6983fc34-9577-45e1-b246-40e18fab953f	Item does not meet study protocol	Notification	2014-10-15T00:00:00	Approved	Per the PAAD EPC, this tumor is normal pancreas with atrophy
