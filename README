@@ -1,0 +1,41 @@
+# TFM_PDAC — Mutational Signatures in Pancreatic Ductal Adenocarcinoma
+
+## Description
+De novo mutational signature extraction and case-control analysis in PDAC using TCGA-PAAD cohort. Pipeline includes MAF processing, SigProfilerExtractor, statistical analysis and comparison against COSMIC v3.6.
+
+## Repository Structure
+- `scripts/` — analysis pipeline scripts (numbered in execution order)
+- `data/processed/` — processed data files
+- `results/` — figures, matrices and summary tables
+
+## Data Sources
+Raw data is not included in this repository. Download from:
+- **TCGA-PAAD MAF**: GDC Data Portal (https://portal.gdc.cancer.gov/repository)
+  - Project: TCGA-PAAD
+  - Data Category: Simple Nucleotide Variation
+  - Data Type: Masked Somatic Mutation
+  - Workflow Type: Aliquot Ensemble
+- **COSMIC v3.6 signatures**: https://cancer.sanger.ac.uk/signatures/downloads/
+- **GSE57495**: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE57495
+
+## Pipeline
+1. `01_descarga_preparacion.sh` — MAF download and merging
+2. `02_clinical_processing.py` — clinical data processing
+3. `03_data_merging.py` — MAF and clinical data merge
+4. `04_sigprofiler_extraction.py` — matrix generation with SigProfilerMatrixGenerator
+5. `05_sigprofiler_extraction.py` — de novo signature extraction with SigProfilerExtractor
+6. `06_statistical_analysis.R` — statistical analysis and visualizations
+
+## Key Results
+- 168 PDAC samples analyzed (1 hypermutated excluded)
+- 6 COSMIC signatures identified: SBS1, SBS5, SBS10a, SBS10b, SBS15, SBS107
+- SBS15 (MMR deficiency) more frequent in early stages
+- SBS10a (POLE deficiency) exclusive to late stages
+- SBS107 (unknown aetiology) more frequent in early stages
+- ROC AUC = 0.667 for stage as predictor of mortality (GSE57495)
+
+## Requirements
+- Python 3.10 (conda environment: tfm_pdac)
+- R 4.5.3
+- Genome reference: GRCh37
+- See scripts for specific package requirements
