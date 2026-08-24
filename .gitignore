@@ -3,7 +3,7 @@ data/raw/
 
 # Archivos de datos grandes
 data/processed/*.maf
-data/processed/*.tsv
+data/processed/*.maf.gz
 
 # Archivos del sistema
 .DS_Store

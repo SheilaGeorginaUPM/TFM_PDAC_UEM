@@ -1,0 +1,7 @@
+"Signature","Aetiology","Present_in_PDAC","Prop_Early","Prop_Late","Fisher_p_adjusted","Stage_association"
+"SBS1","Spontaneous deamination (ageing)","Yes",0.933,0.918,1,"None"
+"SBS5","Unknown (ageing-related)","Yes",1,0.975,1,"None"
+"SBS10a","POLE exonuclease domain mutations","Yes (rare)",0,0.025,1,"Late only"
+"SBS10b","POLE exonuclease domain mutations","Yes (rare)",0.156,0.27,0.923,"Late > Early"
+"SBS15","Defective DNA mismatch repair","Yes",0.289,0.32,1,"Early > Late"
+"SBS107","Unknown","Yes (rare)",0.022,0.008,1,"Early > Late"
