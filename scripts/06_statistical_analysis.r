@@ -228,6 +228,15 @@ png("results/figures/heatmap_signatures_annotated.png", width = 1400, height = 6
 draw(ht)
 dev.off()
 
+# ── DESCARGA DE DATOS GSE57495 (GEO) ───────────────────────────
+# Dataset disponible en:
+# https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE57495
+# Referencia: Moffitt et al. (2015). Nature Genetics, 47(10), 1168-1178.
+# https://doi.org/10.1038/ng.3398
+#
+# Descarga manual: acceder a la URL, descargar "Series Matrix File(s)"
+# y guardar en data/raw/GSE57495_series_matrix.txt.gz
+
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install("GEOquery")
